@@ -61,7 +61,9 @@ $num_categories = '3'; //number of card categories in your TCG. can be changed l
 $category[1] = 'Regular'; //category names of cards. can be added to later (must change above variable).
 $category[2] = 'Special';
 $category[3] = 'Member';
-/* The following is the number of cards in your regular decks. The included random.php only works with decks that are all the same number. If you need a different setup, change the random.php yourself or use a different randomizer (Rahenna's, maybe?) */
+/* The following is the number of cards in your regular decks. The included random.php only works with 
+decks that are all the same number. If you need a different setup, change the random.php yourself or use 
+a different randomizer (Rahenna's, maybe?) */
 $digits = array (
 	"01",
 	"02",
@@ -84,7 +86,9 @@ $digits = array (
 	"19",
 	"20"
 );
-/* The following is the number of cards in your special decks. The included random.php only works with decks that are all the same number. If you need a different setup, change the random.php yourself or use a different randomizer (Rahenna's, maybe?) */
+/* The following is the number of cards in your special decks. The included random.php only works with 
+decks that are all the same number. If you need a different setup, change the random.php yourself or use 
+a different randomizer (Rahenna's, maybe?) */
 $digits_spc = array (
 	"01",
 	"02",
