@@ -1,6 +1,8 @@
 <?php
 $user = 'name'; //username for the MyTCG admin panel
 $pass = 'pass'; //password for the MyTCG admin panel
+
+
 /********************/
 $tcgemail = 'you@yoursite.com'; //email address for all TCG email
 $tcgname = 'My TCG'; //name of your TCG
@@ -16,6 +18,8 @@ $height = '##'; //Not used by default
 $ext = 'png'; /* Your cards' extension, e.g. gif, png, jpg. Do not put a period, change it here if you ever
 change formats of your card */
 $br = '<br />'; //Not used by default
+
+
 /********************/
 $db_server = 'localhost'; //Usually localhost, sometimes not. Unsure? Check with your host
 $db_user = 'name'; //username on your database
@@ -26,6 +30,8 @@ $table_cards = 'cards'; //db table name for cards
 $table_upcoming = 'upcoming'; //db table name for future
 $table_affiliates = 'affiliates'; //db table name for affiliates
 $table_games = 'games'; //db table name for games
+
+
 /********************/
 $num_levels = '10'; //level count. Can be changed. Doesn't include pending or hiatus
 $level[1] = '1'; //name of your levels. can be words or numbers here
@@ -48,6 +54,8 @@ $levelcount[7] = '1200 - 1399';
 $levelcount[8] = '1400 - 1599';
 $levelcount[9] = '1600 - 1799';
 $levelcount[10] = '1800 - 1999';
+
+
 /********************/
 $num_categories = '3'; //number of card categories in your TCG. can be changed later.
 $category[1] = 'Regular'; //category names of cards. can be added to later (must change above variable).
@@ -95,11 +103,15 @@ $digits_spc = array (
 	"15"
 );
 /********************/
+
+
 $num_gamecats = '3'; //number of game categories
 $gamecat[1] = 'Group A'; //category names
 $gamecat[2] = 'Group B';
 $gamecat[3] = 'Group C';
 /********************/
+
+
 $buttonsize = '88x31'; //affiliate button size, width x height
 $buttonurl = 'http://tcg.you.com/affiliates/'; //url to your affiliate image folder WITH TRAILING SLASH
 $num_affiliates = '3'; //affiliate categories
@@ -107,6 +119,8 @@ $affiliates[1] = 'Pending'; //names for affiliate categories
 $affiliates[2] = 'Active';
 $affiliates[3] = 'Hiatus';
 /********************/
+
+
 $num_startreg = '5'; //starter pack number of regular cards
 $num_startspc = '0'; //starter pack number of special cards
 $num_startchoice = '2'; //starter pack number of collecting deck cards
@@ -117,6 +131,8 @@ $num_maschoice = '2'; //number of choice cards for mastering a deck
 $num_masreg = '3'; //number of random regular cards for mastering a deck
 $num_masspc = '0'; //number of random special cards for mastering a deck
 /********************/
+
+
 //don't edit here
 	$users = array($user => md5($pass));
 	$salt = substr(md5(date("F")), 8);
